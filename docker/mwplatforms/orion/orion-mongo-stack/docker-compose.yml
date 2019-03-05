@@ -1,0 +1,26 @@
+version: '3'
+services:
+  mongo:
+    image: mongo:latest
+    command: --nojournal
+    ports:
+      - "27017:27017"
+    networks:
+      main:
+        aliases:
+          - mongo
+    restart: unless-stopped
+  orion:
+    image: fiware/orion
+    depends_on:
+      - mongo
+    ports:
+      - "1026:1026"
+    command: -dbhost mongo -noCache -insecureNotif
+    networks:
+      main:
+        aliases:
+          - orion
+    restart: unless-stopped
+networks:
+  main:
