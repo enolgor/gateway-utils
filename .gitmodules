@@ -1,0 +1,12 @@
+[submodule "repos/gateway"]
+	path = repos/gateway
+	url = git@github.com:INTER-IoT/gateway.git
+[submodule "repos/gateway-extensions-virtual"]
+	path = repos/gateway-extensions-virtual
+	url = git@github.com:INTER-IoT/gateway-extensions-virtual.git
+[submodule "repos/gateway-extensions-physical"]
+	path = repos/gateway-extensions-physical
+	url = git@github.com:INTER-IoT/gateway-extensions-physical.git
+[submodule "repos/gateway-extensions-common"]
+	path = repos/gateway-extensions-common
+	url = git@github.com:INTER-IoT/gateway-extensions-common.git
