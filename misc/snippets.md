@@ -8,15 +8,18 @@
   
 ## Javadocs
 
+Execute in src folder. Configuration is in parent pom.
+
 ```
 mvn clean javadoc:aggregate -pl \
-:gateway,\
-:gateway-common,\
-:gateway.commons,\
-:gateway-physical,\
-:gateway.commons.physical,\
-:gateway-virtual,\
-:gateway.commons.virtual
+:parent,\
+core,\
+core/common,\
+core/common/commons,\
+core/physical,\
+core/physical/commons-physical,\
+core/virtual,\
+core/virtual/commons-virtual
 ```
 
 ## Licenses
