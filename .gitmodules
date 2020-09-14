@@ -1,0 +1,12 @@
+[submodule "repos/gateway"]
+	path = repos/gateway
+	url = git@github.com:enolgor/gateway
+[submodule "repos/gateway-extensions-physical"]
+	path = repos/gateway-extensions-physical
+	url = git@github.com:enolgor/gateway-extensions-physical
+[submodule "repos/gateway-extensions-virtual"]
+	path = repos/gateway-extensions-virtual
+	url = git@github.com:enolgor/gateway-extensions-virtual
+[submodule "repos/gateway-extensions-common"]
+	path = repos/gateway-extensions-common
+	url = git@github.com:enolgor/gateway-extensions-common
